@@ -1,8 +1,16 @@
 # Fantasy Car Dealer
 
-This project was generated with Angular CLI version 12.0.1 to test / find bugs.
+This Angular project is created for the purpose of an example repo when an issue is found and to be reported.
 
-## Inline style change not reflected
+## Current
+
+None
+
+## Previous Issues Reported
+
+## 20904: Inline style change not reflected
+
+Fixed ✌✔: [Issue Link](https://github.com/angular/angular-cli/issues/20904)
 
 See `app/core/pages/home.component.ts`.
 

@@ -8,26 +8,8 @@ import { Component, OnInit } from '@angular/core';
 
       <main>
         <p>
-          Change inline styles and see that it wont affect during
-          <strong>ng serve</strong> after first change.
+          <strong>Current Status: </strong> All good. 👍
         </p>
-        <p>
-          Only first change to inline style gets reflected or changes made to
-          multiple properties (even that one fails from time to time), but not
-          single ones.
-        </p>
-        <p>Such as: trying to change background color of this "main" class.</p>
-        <pre>
-          <code>{{"
-            main {
-              .
-              .
-              .
-              background: aqua;
-            }
-          "}}
-        </code>
-        </pre>
       </main>
     </div>
   `,
@@ -58,8 +40,8 @@ import { Component, OnInit } from '@angular/core';
         flex-direction: column;
         gap: 20px;
         height: 100%;
-        align-items: center;
-        background: aqua;
+        width: 84%;
+        margin: 20px auto;
       }
     `,
   ],
